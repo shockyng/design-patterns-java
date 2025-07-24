@@ -1,4 +1,4 @@
-package creational;
+package creational.factorymethod;
 
 public interface Transport {
     void move();

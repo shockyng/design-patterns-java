@@ -1,4 +1,4 @@
-package creational;
+package creational.abstractfactory;
 
 public class Ship implements Transport {
     @Override

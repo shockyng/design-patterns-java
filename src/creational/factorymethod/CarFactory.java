@@ -1,4 +1,4 @@
-package creational;
+package creational.factorymethod;
 
 public class CarFactory implements TransportFactory {
 

@@ -1,4 +1,6 @@
-package creational.factorymethod;
+package creational.factorymethod.solution;
+
+import creational.factorymethod.solution.abstraction.Transport;
 
 public class Car implements Transport {
 

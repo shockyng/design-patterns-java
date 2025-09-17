@@ -1,4 +1,4 @@
-package creational.singleton;
+package creational.singleton.solution;
 
 import java.util.Collections;
 import java.util.HashMap;

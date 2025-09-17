@@ -1,4 +1,4 @@
-package creational.abstractfactory;
+package creational.abstractfactory.solution.abstraction;
 
 public interface Factory {
     Transport createMainTransport();

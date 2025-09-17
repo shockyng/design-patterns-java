@@ -1,4 +1,6 @@
-package creational.abstractfactory;
+package creational.abstractfactory.solution;
+
+import creational.abstractfactory.solution.abstraction.Transport;
 
 public class Motorcycle implements Transport {
     @Override

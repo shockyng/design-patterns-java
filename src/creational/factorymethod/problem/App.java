@@ -14,6 +14,7 @@ public class App {
             case LAND:
                 Car car = new Car();
                 car.move();
+                break;
         }
     }
 }

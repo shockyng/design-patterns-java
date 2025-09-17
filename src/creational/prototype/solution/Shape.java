@@ -1,9 +1,11 @@
-package creational.prototype;
+package creational.prototype.solution;
+
+import creational.prototype.Colors;
 
 public abstract class Shape implements Prototype {
-    int positionX;
-    int positionY;
-    Colors color;
+    public int positionX;
+    public int positionY;
+    public Colors color;
 
     public Shape(int positionX, int positionY, Colors color) {
         this.positionX = positionX;

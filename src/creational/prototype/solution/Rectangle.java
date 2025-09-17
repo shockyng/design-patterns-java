@@ -1,4 +1,6 @@
-package creational.prototype;
+package creational.prototype.solution;
+
+import creational.prototype.Colors;
 
 public class Rectangle extends Shape {
 

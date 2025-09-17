@@ -1,4 +1,4 @@
-package creational.builder;
+package creational.builder.solution;
 
 public class Person {
     private Long id;
@@ -6,17 +6,7 @@ public class Person {
     private boolean isActive;
     private String email;
     private String phone;
-    private String address;
-    private String city;
-    private String state;
-    private String country;
-    private String postalCode;
-    private String website;
-    private String companyName;
-    private String jobTitle;
-    private String department;
 
-    // instead of having a lot of constructors
     public static class Builder {
 
         private final Person person;
@@ -31,7 +21,7 @@ public class Person {
 
         public Builder id(Long id) {
             this.person.id = id;
-            return this;
+            return this; // <--
         }
 
         public Builder name(String name) {
@@ -44,7 +34,15 @@ public class Person {
             return this;
         }
 
-        // and so on
+        public Builder phone(String phone) {
+            this.person.phone = phone;
+            return this;
+        }
+
+        public Builder email(String email) {
+            this.person.email = email;
+            return this;
+        }
     }
 
     @Override
@@ -55,15 +53,6 @@ public class Person {
                 ", isActive=" + isActive +
                 ", email='" + email + '\'' +
                 ", phone='" + phone + '\'' +
-                ", address='" + address + '\'' +
-                ", city='" + city + '\'' +
-                ", state='" + state + '\'' +
-                ", country='" + country + '\'' +
-                ", postalCode='" + postalCode + '\'' +
-                ", website='" + website + '\'' +
-                ", companyName='" + companyName + '\'' +
-                ", jobTitle='" + jobTitle + '\'' +
-                ", department='" + department + '\'' +
                 '}';
     }
 }
